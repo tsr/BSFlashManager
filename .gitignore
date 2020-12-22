@@ -1,6 +1,6 @@
 obj/
-Debug/
-Release/
+[Dd]ebug/
+[Rr]elease/
 GeneratedFiles/
 .vs/
 .qmake.stash

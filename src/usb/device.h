@@ -37,7 +37,7 @@ protected:
 			, msg(msg.toUtf8())
 		{}
 
-		const char *what() const { return msg.constData(); }
+		const char *what() const noexcept override { return msg.constData(); }
 
 	private:
 		QByteArray msg;

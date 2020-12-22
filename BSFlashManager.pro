@@ -22,7 +22,7 @@ RCC_DIR = $$OBJECTS_DIR
 # build on OS X with xcode/clang and libc++
 macx:QMAKE_CXXFLAGS += -stdlib=libc++
 
-LIBS += -L$$DESTDIR -llibusb-1.0
+LIBS += -L$$DESTDIR -lusb-1.0
 
 RESOURCES += \
     src/mainwindow.qrc
